@@ -9,9 +9,6 @@ function Greeting() {
   const { greeting, isLoading, error } = useSelector(
     (state) => state.greetings,
   );
-  console.log(greeting);
-
-  console.log(store.getState());
 
   useEffect(() => {
     dispatch(fetchRandomGreeting());

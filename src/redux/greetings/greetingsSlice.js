@@ -10,7 +10,6 @@ export const fetchRandomGreeting = createAsyncThunk(
       throw new Error('Failed to fetch.');
     }
     const data = await response.json();
-    console.log(data);
     return data;
   },
 );
