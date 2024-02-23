@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import store from '../redux/store'; // Import your Redux store
 
 import { fetchRandomGreeting } from '../redux/greetings/greetingsSlice';
 
